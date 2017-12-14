@@ -1,0 +1,65 @@
+Square root step for n = 982301348481615682763349336546115836409 started ...
+------------------------------
+Working with dependency 1 of 5 ...
+x_mod_n -> 127514044097191221264245462824584778470
+squareRootInZ mod n -> 127514044097191221264245462824584778470
+
+*** Factorization result of 982301348481615682763349336546115836409
+
+The 1st factor is -> 982301348481615682763349336546115836409
+The 2nd factor is -> 1
+
+Oops... Trivial factorization of n found...
+The process continues to the next dependency...
+======================================================
+Working with dependency 2 of 5 ...
+x_mod_n -> 417591971347579764666338477275811042206
+squareRootInZ mod n -> 417591971347579764666338477275811042206
+
+*** Factorization result of 982301348481615682763349336546115836409
+
+The 1st factor is -> 982301348481615682763349336546115836409
+The 2nd factor is -> 1
+
+Oops... Trivial factorization of n found...
+The process continues to the next dependency...
+======================================================
+Working with dependency 3 of 5 ...
+x_mod_n -> 130153870481163475165313111224505806981
+squareRootInZ mod n -> 130153870481163475165313111224505806981
+
+*** Factorization result of 982301348481615682763349336546115836409
+
+The 1st factor is -> 982301348481615682763349336546115836409
+The 2nd factor is -> 1
+
+Oops... Trivial factorization of n found...
+The process continues to the next dependency...
+======================================================
+Working with dependency 4 of 5 ...
+x_mod_n -> 670868092852119871214030792810710537878
+squareRootInZ mod n -> 670868092852119871214030792810710537878
+
+*** Factorization result of 982301348481615682763349336546115836409
+
+The 1st factor is -> 982301348481615682763349336546115836409
+The 2nd factor is -> 1
+
+Oops... Trivial factorization of n found...
+The process continues to the next dependency...
+======================================================
+Working with dependency 5 of 5 ...
+x_mod_n -> 644439700134725228948487640651595908569
+squareRootInZ mod n -> 404146105743271549671037215712712289611
+
+*** Factorization result of 982301348481615682763349336546115836409
+
+The 1st factor is -> 46798767890987654401
+The 2nd factor is -> 20989897656489026809
+
+### SUCCESS!! ###
+
+Result found using dependency 5 of 5
+
+*** Factorization of 982301348481615682763349336546115836409 completed successfully! 
+======================================================

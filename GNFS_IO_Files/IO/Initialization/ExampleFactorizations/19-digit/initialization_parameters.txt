@@ -1,0 +1,26 @@
+8229944909131434961    # Number to fuctor (n)
+3           # Polynomial degree (d). It must be odd and at least 3. Common values: 3, 5.
+false       # If true, the polynomial that will be used by GNFS will be monic.
+[]          # Placeholder for polynomial f. PLEASE DO NOT EDIT!
+[]          # Placeholder for the derivative of f. PLEASE DO NOT EDIT!
+0           # Root of polynomial f mod n (m). ATTENTION!: If this is not 0, then it will be used as m directly. CAUTION!: Use this only for testing purposes!!
+400      # Rational factor base bound (maxRFB)
+1300      # Algebraic factor base bound (maxAFB). It must be >= maxRFB.
+40         # Quadratic character base size (#QCB)
+true        # false: Output bases only in binary format. true: Output bases in text format as well.
+20000      # x dimension size (actually the half of it) of the line sieving step ( |a| <= max_a )
+1           # lower bound for y dimension of the line sieving step (min_b). Must be at least one.
+1000       # upper bound for y dimension of the line sieving step (max_b, max_b <= b <= max_b).
+0           # Large prime bound for RFB (L1). It must be lagrer than maxRFB, or else this optimization will not be applied. If RFB and AFB are calculated programmatically and L1 != 0, then L1 is calculated programmatically as well.
+0           # Large prime bound for AFB (L2). It must be >= L1. It must be lagrer than maxAFB, or else this optimization will not be applied. If RFB and AFB are calculated programmatically and L2 != 0, then L2 is calculated programmatically as well.
+10          # Minimum number of excessive relations to incorporate into the matrix during the linear algebra step.
+50          # Starting length in bits of the inert primes that will be used in the square root step. The bigger this value is the fewer inert primes will be necessary (i.e. IPBsize can be smaller). See the comments in Parameters.h for more info!
+30        # Number of inert primes that will be used for the square root step. See the comments in Parameters.h for more info!
+5           # Maximum number of dependencies to process in the square root step. See the comments in Parameters.h for more info!
+true        # If true, perform the polynomial selection step. If false just skip it.
+true        # If true, extensive polynomial search will take place. If false, the algorithm will use the first polynomial that it will find, without any further search.
+0.001     # It is the lower bound x_1 (MAX_SHRINKAGE) used in Murphy's Equation (x_1 <= a_d/m <= x_2) for the size of the leading coefficient of the non-monic polynomial
+0.003     # It is the upper bound x_2 (MIN_SHRINKAGE) used in Murphy's Equation (x_1 <= a_d/m <= x_2) for the size of the leading coefficient of the non-monic polynomial
+0     # If > 0 then this is the range between the lowest value of the leading coefficient a_d and its highest value, i.e. (a_d_max-a_d_min = range)
+false        # If false, then the polynomial selection for non-monic polynomials is performed by the least alpha value. If true, it is performed by the highest rating value.
+false       # Programmatically calculate maxRFB and maxAFB (if true, the previous parameters for maxRFB and maxAFB will be ignored). WARNING: "true" is not recommended!

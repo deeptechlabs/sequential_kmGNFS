@@ -1,0 +1,21 @@
+8229944909131434961				# Number to factor (n)
+3				# Polynomial degree (d)
+false				# If true, the polynomial that will be used by GNFS will be monic.
+[-14175 -13154 46957 20852]				# Selected polynomial (f). NOTE: This will be empty if the polynomial selection step was skipped.
+[-13154 93914 62556]				# Derivative of f. NOTE: This will be empty if the polynomial selection step was skipped.
+73352				# Root of f mod n (m)
+400				# Rational factor base bound (maxRFB)
+1300				# Algebraic factor base bound (maxAFB). It must be >= maxRFB
+40				# Quadratic character base size (#QCB)
+true				# false: Output bases only in binary format. true: Output bases in text format as well.
+20000				# x dimension size (actually the half of it) of the line sieving step ( |x| <= maxX )
+1				# lower bound for y dimension of the line sieving step (minY). Must be at least one.
+5000				# upper bound for y dimension of the line sieving step (maxY, minY <= y <= maxY)
+400				# Large prime bound for RFB (L1). It must be lagrer than maxRFB, or else this optimization will not be applied.
+1300				# Large prime bound for AFB (L2). It must be lagrer than maxAFB, or else this optimization will not be applied. It must be >= L1
+10				# Minimum number of excessive relations to incorporate into the matrix during the linear algebra step.
+# ADDITIONAL NOTES:
+
+rels: 2089 (2105 together with free rels)
+reports: 568584
+time: 6 sec

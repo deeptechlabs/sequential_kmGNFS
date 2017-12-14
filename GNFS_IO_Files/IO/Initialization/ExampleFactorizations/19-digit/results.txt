@@ -1,0 +1,41 @@
+Square root step for n = 8229944909131434961 started ...
+------------------------------
+Working with dependency 1 of 5 ...
+x_mod_n -> 3309694757204247960
+squareRootInZ mod n -> 3309694757204247960
+
+*** Factorization result of 8229944909131434961
+
+The 1st factor is -> 8229944909131434961
+The 2nd factor is -> 1
+
+Oops... Trivial factorization of n found...
+The process continues to the next dependency...
+======================================================
+Working with dependency 2 of 5 ...
+x_mod_n -> 2194805754674880971
+squareRootInZ mod n -> 6035139154456553990
+
+*** Factorization result of 8229944909131434961
+
+The 1st factor is -> 1
+The 2nd factor is -> 8229944909131434961
+
+Oops... Trivial factorization of n found...
+The process continues to the next dependency...
+======================================================
+Working with dependency 3 of 5 ...
+x_mod_n -> 1494094743329473141
+squareRootInZ mod n -> 2779531872117132475
+
+*** Factorization result of 8229944909131434961
+
+The 1st factor is -> 3497856121
+The 2nd factor is -> 2352854041
+
+### SUCCESS!! ###
+
+Result found using dependency 3 of 5
+
+*** Factorization of 8229944909131434961 completed successfully! 
+======================================================

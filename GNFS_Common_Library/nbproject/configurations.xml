@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="62">
+  <logicalFolder name="root" displayName="root" projectFiles="true">
+    <logicalFolder name="HeaderFiles"
+                   displayName="GNFS Header Files"
+                   projectFiles="true">
+      <itemPath>include/GNFS/FactorBases.h</itemPath>
+      <itemPath>include/GNFS/Initialization.h</itemPath>
+      <itemPath>include/GNFS/LineSieving.h</itemPath>
+      <itemPath>include/GNFS/LinearAlgebra.h</itemPath>
+      <itemPath>include/GNFS/MatrixConstruction.h</itemPath>
+      <itemPath>include/GNFS/Parameters.h</itemPath>
+      <itemPath>include/GNFS/PolynomialSelection.h</itemPath>
+      <itemPath>include/GNFS/Relation.h</itemPath>
+      <itemPath>include/GNFS/Sieving.h</itemPath>
+      <itemPath>include/GNFS/SquareRoot.h</itemPath>
+      <itemPath>include/GNFS/gnfs_global.h</itemPath>
+      <itemPath>include/GNFS/gnfs_utils.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="GNFS Source Files"
+                   projectFiles="true">
+      <itemPath>FactorBases.cpp</itemPath>
+      <itemPath>Initialization.cpp</itemPath>
+      <itemPath>LineSieving.cpp</itemPath>
+      <itemPath>LinearAlgebra.cpp</itemPath>
+      <itemPath>MatrixConstruction.cpp</itemPath>
+      <itemPath>Parameters.cpp</itemPath>
+      <itemPath>PolynomialSelection.cpp</itemPath>
+      <itemPath>Relation.cpp</itemPath>
+      <itemPath>Sieving.cpp</itemPath>
+      <itemPath>SquareRoot.cpp</itemPath>
+      <itemPath>gnfs_utils.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="f1" displayName="Misc Header Files" projectFiles="true">
+      <itemPath>include/pair_intType_intType.h</itemPath>
+      <itemPath>include/pair_long_long.h</itemPath>
+      <itemPath>include/pair_uintType_uintType.h</itemPath>
+      <itemPath>include/timer.h</itemPath>
+      <itemPath>include/triple.h</itemPath>
+      <itemPath>include/triple_intType.h</itemPath>
+      <itemPath>include/vec_intType.h</itemPath>
+      <itemPath>include/vec_uintType.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="f2" displayName="Misc Source Files" projectFiles="true">
+      <itemPath>pair_intType_intType.cpp</itemPath>
+      <itemPath>pair_long_long.cpp</itemPath>
+      <itemPath>pair_uintType_uintType.cpp</itemPath>
+      <itemPath>timer.cpp</itemPath>
+      <itemPath>triple_intType.cpp</itemPath>
+      <itemPath>vec_intType.cpp</itemPath>
+      <itemPath>vec_uintType.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Release" type="3">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <compilerSet>GNU|GNU</compilerSet>
+        <platform>4</platform>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <architecture>2</architecture>
+          <incDir>
+            <pElem>include</pElem>
+          </incDir>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <archiverTool>
+          <output>dist/Release/libgnfs_common_library.a</output>
+        </archiverTool>
+      </compileType>
+    </conf>
+    <conf name="Debug" type="3">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <compilerSet>GNU|GNU</compilerSet>
+        <platform>4</platform>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <architecture>2</architecture>
+          <incDir>
+            <pElem>include</pElem>
+          </incDir>
+        </ccTool>
+        <archiverTool>
+          <output>dist/Debug/libgnfs_common_library.a</output>
+        </archiverTool>
+      </compileType>
+    </conf>
+  </confs>
+</configurationDescriptor>

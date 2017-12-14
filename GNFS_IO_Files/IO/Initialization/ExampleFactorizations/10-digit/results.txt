@@ -1,0 +1,41 @@
+Square root step for n = 2352854039 started ...
+------------------------------
+Working with dependency 1 of 5 ...
+x_mod_n -> 1951480879
+squareRootInZ mod n -> 401373160
+
+*** Factorization result of 2352854039
+
+The 1st factor is -> 1
+The 2nd factor is -> 2352854039
+
+Oops... Trivial factorization of n found...
+The process continues to the next dependency...
+======================================================
+Working with dependency 2 of 5 ...
+x_mod_n -> 895789805
+squareRootInZ mod n -> 895789805
+
+*** Factorization result of 2352854039
+
+The 1st factor is -> 2352854039
+The 2nd factor is -> 1
+
+Oops... Trivial factorization of n found...
+The process continues to the next dependency...
+======================================================
+Working with dependency 3 of 5 ...
+x_mod_n -> 1499747213
+squareRootInZ mod n -> 1985375480
+
+*** Factorization result of 2352854039
+
+The 1st factor is -> 42013
+The 2nd factor is -> 56003
+
+### SUCCESS!! ###
+
+Result found using dependency 3 of 5
+
+*** Factorization of 2352854039 completed successfully! 
+======================================================
